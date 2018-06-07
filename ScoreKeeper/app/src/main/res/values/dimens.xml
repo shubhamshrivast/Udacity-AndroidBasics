@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="scoreTextSize">80sp</dimen>
+    <dimen name="boardTextSize">20dp</dimen>
+    <dimen name="layoutMargin">16dp</dimen>
+    <dimen name="iconSize">100dp</dimen>
+    <dimen name="buttonMargin">24sp</dimen>
+    <dimen name="buttonSpacing">8sp</dimen>
+</resources>

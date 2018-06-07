@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Buttons">
+        <item name="android:fontFamily">Noto</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_marginTop">@dimen/buttonSpacing</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="teamLogo">
+        <item name="android:layout_width">@dimen/iconSize</item>
+        <item name="android:layout_height">@dimen/iconSize</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="scoreBoard">
+        <item name="android:fontFamily">@font/digital_7normal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/scoreTextSize</item>
+    </style>
+
+    <style name="foulBoard">
+        <item name="android:padding">@dimen/textSize</item>
+        <item name="android:fontFamily">@font/digital_7normal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/boardTextSize</item>
+    </style>
+    <style name="ScoreBoard_title">
+        <item name="android:padding">@dimen/textSize</item>
+        <item name="android:textSize">@dimen/boardTextSize</item>
+        <item name="android:fontFamily">@font/digital_7normal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/layoutMargin</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+</resources>
