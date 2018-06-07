@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="actionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/actionbar_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:padding">@dimen/margin</item>
+    </style>
+
+    <style name="ScoreBoard">
+        <item name="android:layout_marginRight">@dimen/option_margin</item>
+        <item name="android:layout_marginLeft">@dimen/option_margin</item>
+        <item name="android:textSize">@dimen/default_score</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/scoreBoard</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="section">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="question">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/questions</item>
+    </style>
+
+    <style name="optionSection">
+        <item name="android:layout_marginLeft">@dimen/option_margin</item>
+        <item name="android:layout_marginRight">@dimen/option_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="option">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="buttonSection">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/button_text</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

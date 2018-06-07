@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_text">38sp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="padding">8sp</dimen>
+    <dimen name="option_margin">2dp</dimen>
+    <dimen name="default_score">2sp</dimen>
+    <dimen name="questions">18sp</dimen>
+    <dimen name="button_text">14dp</dimen>
+</resources>
