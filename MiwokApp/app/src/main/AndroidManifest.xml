@@ -40,7 +40,7 @@
             android:label="@string/category_phrases" />
         <activity
             android:name=".ColorsActivity"
-            android:label="@string/category_colors"></activity>
+            android:label="@string/category_colors" />
     </application>
 
 </manifest>
